@@ -8,6 +8,6 @@ public class GreetingController {
 
     @GetMapping("/message")
     public String getMessage(){
-        return "Hello, I'm on the cloud";
+        return "Hello, I'm on the cloud and auto deployed";
     }
 }
