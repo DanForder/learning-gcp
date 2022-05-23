@@ -15,7 +15,8 @@ public class Pokemon {
     private String number;
     private ArrayList<String> types;
 
-    public Pokemon(){}
+    public Pokemon() {
+    }
 
     public int getId() {
         return id;
